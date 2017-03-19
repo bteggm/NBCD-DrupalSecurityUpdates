@@ -61,9 +61,9 @@ hooks:
 #   in the script specified in "location" starting from the root of the 
 #   revision's file bundle.
 # ApplicationStop:
-    - location: ./Scripts/OffLine.sh
-      timeout: 60 
-      runas:   ec2-user
+#   - location: ./Scripts/OffLine.sh
+#     timeout: 60 
+#     runas:   ec2-user
 
 # During the AfterInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
